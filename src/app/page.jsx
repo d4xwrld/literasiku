@@ -33,7 +33,7 @@ export default function Component() {
             prefetch={false}
           >
             {" "}
-            <div class="flex justify-center items-center">
+            <div className="flex justify-center items-center">
               <Avatar className="w-8 h-8">
                 <AvatarImage src="/placeholder-user.jpg" />
                 <AvatarFallback>JD</AvatarFallback>

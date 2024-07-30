@@ -11,9 +11,9 @@ const AuthorLayout = React.forwardRef(
     { className, orientation = "horizontal", decorative = true, ...props },
     ref
   ) => (
-    <div class="w-full rounded-lg border bg-card text-muted-foreground shadow-sm py-2 px-3">
-      <div class="flex flex-wrap gap-3 justify-between it">
-        <a class="flex items-center hover:underline hover:underline-offset-2">
+    <div className="w-full rounded-lg border bg-card text-muted-foreground shadow-sm py-2 px-3">
+      <div className="flex flex-wrap gap-3 justify-between it">
+        <a className="flex items-center hover:underline hover:underline-offset-2">
           @Null
         </a>
         <svg
@@ -26,7 +26,7 @@ const AuthorLayout = React.forwardRef(
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
-          class="lucide lucide-info cursor-pointer"
+          className="lucide lucide-info cursor-pointer"
           data-state="closed"
         >
           <circle cx="12" cy="12" r="10"></circle>
